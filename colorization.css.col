@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(18,26,17)" caret-color="rgb(192,192,192)" folding-background="rgb(30,60,60)" folding-foreground="rgb(125,185,130)" language="text/css" line-highlight="rgb(0,0,0)" selection-background="rgb(94,129,188)" selection-foreground="rgb(255,255,255)">
+<category name="WHITESPACE" style="WHITESPACE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(94,94,125)" id="WHITESPACE"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_DIMENSION" type="DIMENSION"/>
+<token style="LITERAL_HASH" type="HASH"/>
+<token style="LITERAL_COLOR" type="COLOR"/>
+<token style="LITERAL_CLASS" type="CLASS"/>
+<token style="LITERAL_LENGTH" type="LENGTH"/>
+<token style="LITERAL_TIME" type="TIME"/>
+<token style="LITERAL_PERCENTAGE" type="PERCENTAGE"/>
+<token style="LITERAL_NUMBER" type="NUMBER"/>
+<token style="LITERAL_STRING" type="STRING"/>
+</category>
+<style foreground="rgb(255,255,255)" id="LITERAL"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_DIMENSION"/>
+<style foreground="rgb(125,185,130)" id="LITERAL_HASH"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_COLOR"/>
+<style foreground="rgb(125,185,130)" id="LITERAL_CLASS"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_LENGTH"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_TIME"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_PERCENTAGE"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_NUMBER"/>
+<style foreground="rgb(250,240,210)" id="LITERAL_STRING"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_IMPORT" type="IMPORT"/>
+<token style="KEYWORD_IMPORTANT" type="IMPORTANT"/>
+<token style="KEYWORD_MEDIA" type="MEDIA"/>
+<token style="KEYWORD_URL" type="URL"/>
+</category>
+<style foreground="rgb(255,255,255)" id="KEYWORD"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_IMPORT"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(255,128,64)" id="KEYWORD_IMPORTANT"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_MEDIA"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(190,240,195)" id="KEYWORD_URL"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(255,102,0)" id="ERROR"/>
+<category name="IDENTIFIER" style="IDENTIFIER">
+<token style="IDENTIFIER_SELECTOR" type="SELECTOR"/>
+<token style="IDENTIFIER_IDENTIFIER" type="IDENTIFIER"/>
+</category>
+<style foreground="rgb(190,240,195)" id="IDENTIFIER"/>
+<style foreground="rgb(125,185,130)" id="IDENTIFIER_SELECTOR"/>
+<style foreground="rgb(255,242,213)" id="IDENTIFIER_IDENTIFIER"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR">
+<token style="PUNCTUATOR_GREATER" type="GREATER"/>
+<token style="PUNCTUATOR_MINUS" type="MINUS"/>
+<token style="PUNCTUATOR_PLUS" type="PLUS"/>
+</category>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PUNCTUATOR_PLUS"/>
+</colorizer>

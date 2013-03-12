@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(18,18,29)" caret-color="rgb(192,192,192)" folding-background="rgb(0,0,0)" folding-foreground="rgb(63,95,191)" language="text/phpdoc" line-highlight="rgb(0,0,0)" selection-background="rgb(178,180,191)" selection-foreground="rgb(0,0,0)">
+<category name="WHITESPACE" style="WHITESPACE"/>
+<style foreground="rgb(63,95,191)" id="WHITESPACE"/>
+<category name="LITERAL" style="LITERAL"/>
+<style foreground="rgb(63,95,191)" id="LITERAL"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_SEE" type="SEE"/>
+<token style="KEYWORD_COPYRIGHT" type="COPYRIGHT"/>
+<token style="KEYWORD_VERSION" type="VERSION"/>
+<token style="KEYWORD_AUTHOR" type="AUTHOR"/>
+</category>
+<style font-weight="bold" foreground="rgb(63,95,191)" id="KEYWORD"/>
+<style font-weight="bold" foreground="rgb(74,61,194)" id="KEYWORD_SEE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(63,95,191)" id="KEYWORD_COPYRIGHT"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(63,95,191)" id="KEYWORD_VERSION"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(63,95,191)" id="KEYWORD_AUTHOR"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(255,128,0)" id="ERROR"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR"/>
+<style font-weight="bold" foreground="rgb(63,95,191)" id="PUNCTUATOR"/>
+<category name="IDENTIFIER" style="IDENTIFIER"/>
+<style foreground="rgb(108,84,255)" id="IDENTIFIER"/>
+<category name="DELIMITER" style="DELIMITER"/>
+<style font-weight="bold" foreground="rgb(0,64,128)" id="DELIMITER"/>
+</colorizer>

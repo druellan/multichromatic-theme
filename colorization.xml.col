@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" language="text/xml">
+<category name="WHITESPACE" style="WHITESPACE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(96,96,106)" id="WHITESPACE"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_TEXT" type="TEXT"/>
+<token style="LITERAL_PI_TEXT" type="PI_TEXT"/>
+<token style="LITERAL_CDATA_TEXT" type="CDATA_TEXT">
+<region length="LENGTH-3" name="TEXT_PART" offset="0" style="LITERAL_CDATA_TEXT_TEXT_PART"/>
+<region length="3" name="START_END" offset="LENGTH-3" style="LITERAL_CDATA_TEXT_START_END"/>
+</token>
+<token style="LITERAL_STRING" type="STRING">
+<region length="LENGTH-2" name="CONTENT" offset="1" style="LITERAL_STRING_CONTENT"/>
+<region length="1" name="RIGHT_QUOTE" offset="LENGTH-1" style="LITERAL_STRING_RIGHT_QUOTE"/>
+<region length="1" name="LEFT_QUOTE" offset="0" style="LITERAL_STRING_LEFT_QUOTE"/>
+</token>
+</category>
+<style foreground="rgb(192,192,192)" id="LITERAL"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_TEXT"/>
+<style foreground="rgb(192,192,192)" id="LITERAL_PI_TEXT"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_CDATA_TEXT_TEXT_PART"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_CDATA_TEXT_START_END"/>
+<style foreground="rgb(0,0,0)" id="LITERAL_CDATA_TEXT"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_STRING_CONTENT"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_STRING_RIGHT_QUOTE"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_STRING_LEFT_QUOTE"/>
+<style foreground="rgb(0,0,0)" id="LITERAL_STRING"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_CDATA" type="CDATA"/>
+<token style="KEYWORD_ENCODING" type="ENCODING"/>
+</category>
+<style foreground="rgb(192,192,192)" id="KEYWORD"/>
+<style foreground="rgb(255,255,255)" id="KEYWORD_CDATA"/>
+<style foreground="rgb(255,255,255)" id="KEYWORD_ENCODING"/>
+<category name="ERROR" style="ERROR"/>
+<style font-style="italic" foreground="rgb(255,102,0)" id="ERROR"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR">
+<token style="PUNCTUATOR_NOTATION_DECL" type="NOTATION_DECL"/>
+<token style="PUNCTUATOR_END_TAG" type="END_TAG">
+<region length="LENGTH-2" name="NAME_PART" offset="2" style="PUNCTUATOR_END_TAG_NAME_PART"/>
+<region length="2" name="TAG_PART" offset="0" style="PUNCTUATOR_END_TAG_TAG_PART"/>
+</token>
+<token style="PUNCTUATOR_GREATER_THAN" type="GREATER_THAN"/>
+<token style="PUNCTUATOR_XML_DECL" type="XML_DECL">
+<region length="3" name="NAME_PART" offset="2" style="PUNCTUATOR_XML_DECL_NAME_PART"/>
+<region length="2" name="TAG_PART" offset="0" style="PUNCTUATOR_XML_DECL_TAG_PART"/>
+</token>
+<token style="PUNCTUATOR_PI_OPEN" type="PI_OPEN">
+<region length="LENGTH-2" name="NAME_PART" offset="2" style="PUNCTUATOR_PI_OPEN_NAME_PART"/>
+<region length="2" name="TAG_PART" offset="0" style="PUNCTUATOR_PI_OPEN_TAG_PART"/>
+</token>
+<token style="PUNCTUATOR_QUESTION_GREATER_THAN" type="QUESTION_GREATER_THAN"/>
+<token style="PUNCTUATOR_START_TAG" type="START_TAG">
+<region length="LENGTH-1" name="NAME_PART" offset="1" style="PUNCTUATOR_START_TAG_NAME_PART"/>
+<region length="1" name="TAG_PART" offset="0" style="PUNCTUATOR_START_TAG_TAG_PART"/>
+</token>
+</category>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR"/>
+<style foreground="rgb(192,192,192)" id="PUNCTUATOR_NOTATION_DECL"/>
+<style foreground="rgb(192,192,192)" id="PUNCTUATOR_END_TAG_NAME_PART"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_END_TAG_TAG_PART"/>
+<style foreground="rgb(0,0,0)" id="PUNCTUATOR_END_TAG"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_GREATER_THAN"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_XML_DECL_NAME_PART"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_XML_DECL_TAG_PART"/>
+<style foreground="rgb(0,0,0)" id="PUNCTUATOR_XML_DECL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_PI_OPEN_NAME_PART"/>
+<style foreground="rgb(192,192,192)" id="PUNCTUATOR_PI_OPEN_TAG_PART"/>
+<style foreground="rgb(0,0,0)" id="PUNCTUATOR_PI_OPEN"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_QUESTION_GREATER_THAN"/>
+<style foreground="rgb(192,192,192)" id="PUNCTUATOR_START_TAG_NAME_PART"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_START_TAG_TAG_PART"/>
+<style foreground="rgb(0,0,0)" id="PUNCTUATOR_START_TAG"/>
+</colorizer>

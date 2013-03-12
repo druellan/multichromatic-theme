@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(22,22,33)" caret-color="rgb(255,0,0)" folding-background="rgb(46,50,82)" folding-foreground="rgb(146,152,180)" language="text/php" line-highlight="rgb(0,0,0)" selection-background="rgb(178,180,191)" selection-foreground="rgb(0,0,0)">
+<category name="WHITESPACE" style="WHITESPACE">
+<token style="WHITESPACE_DOC_COMMENT" type="DOC_COMMENT"/>
+</category>
+<style font-style="italic" font-weight="bold" foreground="rgb(94,94,125)" id="WHITESPACE"/>
+<style foreground="rgb(128,128,200)" id="WHITESPACE_DOC_COMMENT"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_NUMBER" type="NUMBER"/>
+<token style="LITERAL_STRING" type="STRING"/>
+</category>
+<style foreground="rgb(255,255,255)" id="LITERAL"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_NUMBER"/>
+<style foreground="rgb(250,240,210)" id="LITERAL_STRING"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_INCLUDE" type="INCLUDE"/>
+<token style="KEYWORD_HALT_COMPILER" type="HALT_COMPILER"/>
+<token style="KEYWORD_REQUIRE_ONCE" type="REQUIRE_ONCE"/>
+<token style="KEYWORD_GLOBAL" type="GLOBAL"/>
+<token style="KEYWORD_TRY" type="TRY"/>
+<token style="KEYWORD_PROTECTED" type="PROTECTED"/>
+<token style="KEYWORD_THROW" type="THROW"/>
+<token style="KEYWORD_EXIT" type="EXIT"/>
+<token style="KEYWORD_NEW" type="NEW"/>
+<token style="KEYWORD_CATCH" type="CATCH"/>
+<token style="KEYWORD_BREAK" type="BREAK"/>
+<token style="KEYWORD_INCLUDE_ONCE" type="INCLUDE_ONCE"/>
+<token style="KEYWORD_REQUIRE" type="REQUIRE"/>
+<token style="KEYWORD_PRIVATE" type="PRIVATE"/>
+<token style="KEYWORD_PUBLIC" type="PUBLIC"/>
+<token style="KEYWORD_EVAL" type="EVAL"/>
+<token style="KEYWORD_RETURN" type="RETURN"/>
+</category>
+<style font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_INCLUDE"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_HALT_COMPILER"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_REQUIRE_ONCE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_GLOBAL"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_TRY"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_PROTECTED"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_THROW"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_EXIT"/>
+<style font-weight="bold" foreground="rgb(200,210,245)" id="KEYWORD_NEW"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_CATCH"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_BREAK"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_INCLUDE_ONCE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_REQUIRE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_PRIVATE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_PUBLIC"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_EVAL"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(170,170,230)" id="KEYWORD_RETURN"/>
+<category name="PREDEFINED" style="PREDEFINED"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PREDEFINED"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(255,0,128)" id="ERROR"/>
+<category name="SUPERGLOBAL" style="SUPERGLOBAL">
+<token style="SUPERGLOBAL_$_FILES" type="$_FILES"/>
+<token style="SUPERGLOBAL_$_POST" type="$_POST"/>
+<token style="SUPERGLOBAL_$_GET" type="$_GET"/>
+</category>
+<style font-style="italic" font-weight="bold" foreground="rgb(200,210,245)" id="SUPERGLOBAL"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(200,210,245)" id="SUPERGLOBAL_$_FILES"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(200,210,245)" id="SUPERGLOBAL_$_POST"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(200,210,245)" id="SUPERGLOBAL_$_GET"/>
+<category name="IDENTIFIER" style="IDENTIFIER">
+<token style="IDENTIFIER_BUILT_IN_FUNCTION" type="BUILT_IN_FUNCTION"/>
+<token style="IDENTIFIER_VARIABLE" type="VARIABLE"/>
+</category>
+<style foreground="rgb(255,255,255)" id="IDENTIFIER"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="IDENTIFIER_BUILT_IN_FUNCTION"/>
+<style font-weight="bold" foreground="rgb(200,210,245)" id="IDENTIFIER_VARIABLE"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR">
+<token style="PUNCTUATOR_IS_GREATER_OR_EQUAL" type="IS_GREATER_OR_EQUAL"/>
+<token style="PUNCTUATOR_IS_SMALLER_OR_EQUAL" type="IS_SMALLER_OR_EQUAL"/>
+<token style="PUNCTUATOR_MINUS" type="MINUS"/>
+<token style="PUNCTUATOR_CLOSE_TAG" type="CLOSE_TAG"/>
+<token style="PUNCTUATOR_MINUS_EQUAL" type="MINUS_EQUAL"/>
+<token style="PUNCTUATOR_SQUARE_OPEN" type="SQUARE_OPEN"/>
+<token style="PUNCTUATOR_CURLY_OPEN" type="CURLY_OPEN"/>
+<token style="PUNCTUATOR_CONDITIONAL" type="CONDITIONAL"/>
+<token style="PUNCTUATOR_OPEN_TAG" type="OPEN_TAG"/>
+<token style="PUNCTUATOR_SQUARE_CLOSE" type="SQUARE_CLOSE"/>
+<token style="PUNCTUATOR_IS_NOT_IDENTICAL" type="IS_NOT_IDENTICAL"/>
+<token style="PUNCTUATOR_IS_SMALLER" type="IS_SMALLER"/>
+<token style="PUNCTUATOR_IS_EQUAL" type="IS_EQUAL"/>
+<token style="PUNCTUATOR_CURLY_CLOSE" type="CURLY_CLOSE"/>
+<token style="PUNCTUATOR_IS_NOT_EQUAL" type="IS_NOT_EQUAL"/>
+<token style="PUNCTUATOR_IS_GREATER" type="IS_GREATER"/>
+<token style="PUNCTUATOR_IS_IDENTICAL" type="IS_IDENTICAL"/>
+</category>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_GREATER_OR_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_SMALLER_OR_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS"/>
+<style font-weight="bold" foreground="rgb(170,170,230)" id="PUNCTUATOR_CLOSE_TAG"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS_EQUAL"/>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR_SQUARE_OPEN"/>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR_CURLY_OPEN"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PUNCTUATOR_CONDITIONAL"/>
+<style foreground="rgb(128,128,128)" id="PUNCTUATOR_OPEN_TAG"/>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR_SQUARE_CLOSE"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_NOT_IDENTICAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_SMALLER"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_EQUAL"/>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR_CURLY_CLOSE"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_NOT_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_GREATER"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_IS_IDENTICAL"/>
+<category name="MAGIC" style="MAGIC"/>
+<style font-weight="bold" foreground="rgb(128,128,255)" id="MAGIC"/>
+</colorizer>

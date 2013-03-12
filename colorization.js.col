@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(30,27,17)" caret-color="rgb(192,192,192)" folding-background="rgb(67,55,18)" folding-foreground="rgb(225,190,50)" language="text/javascript" line-highlight="rgb(0,0,0)" selection-background="rgb(94,129,188)" selection-foreground="rgb(255,255,255)">
+<category name="WHITESPACE" style="WHITESPACE"/>
+<style font-style="italic" font-weight="bold" foreground="rgb(94,94,125)" id="WHITESPACE"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_STRING" type="STRING"/>
+<token style="LITERAL_NULL" type="NULL"/>
+<token style="LITERAL_FALSE" type="FALSE"/>
+<token style="LITERAL_NUMBER" type="NUMBER"/>
+<token style="LITERAL_TRUE" type="TRUE"/>
+</category>
+<style foreground="rgb(240,225,160)" id="LITERAL"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_STRING"/>
+<style font-weight="bold" foreground="rgb(240,225,160)" id="LITERAL_NULL"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_FALSE"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_NUMBER"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="LITERAL_TRUE"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_TRY" type="TRY"/>
+<token style="KEYWORD_BREAK" type="BREAK"/>
+<token style="KEYWORD_CATCH" type="CATCH"/>
+</category>
+<style font-weight="bold" foreground="rgb(225,190,50)" id="KEYWORD"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_TRY"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_BREAK"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="KEYWORD_CATCH"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(255,102,0)" id="ERROR"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR">
+<token style="PUNCTUATOR_LESS" type="LESS"/>
+<token style="PUNCTUATOR_LESS_LESS_EQUAL" type="LESS_LESS_EQUAL"/>
+<token style="PUNCTUATOR_LESS_EQUAL" type="LESS_EQUAL"/>
+<token style="PUNCTUATOR_GREATER_GREATER" type="GREATER_GREATER"/>
+<token style="PUNCTUATOR_GREATER_GREATER_GREATER" type="GREATER_GREATER_GREATER"/>
+<token style="PUNCTUATOR_PLUS" type="PLUS"/>
+<token style="PUNCTUATOR_GREATER_GREATER_GREATER_EQUAL" type="GREATER_GREATER_GREATER_EQUAL"/>
+<token style="PUNCTUATOR_MINUS_EQUAL" type="MINUS_EQUAL"/>
+<token style="PUNCTUATOR_EQUAL_EQUAL_EQUAL" type="EQUAL_EQUAL_EQUAL"/>
+<token style="PUNCTUATOR_EXCLAMATION" type="EXCLAMATION"/>
+<token style="PUNCTUATOR_EQUAL_EQUAL" type="EQUAL_EQUAL"/>
+<token style="PUNCTUATOR_GREATER_GREATER_EQUAL" type="GREATER_GREATER_EQUAL"/>
+<token style="PUNCTUATOR_PLUS_PLUS" type="PLUS_PLUS"/>
+<token style="PUNCTUATOR_GREATER" type="GREATER"/>
+<token style="PUNCTUATOR_MINUS" type="MINUS"/>
+<token style="PUNCTUATOR_MINUS_MINUS" type="MINUS_MINUS"/>
+<token style="PUNCTUATOR_PLUS_EQUAL" type="PLUS_EQUAL"/>
+<token style="PUNCTUATOR_GREATER_EQUAL" type="GREATER_EQUAL"/>
+<token style="PUNCTUATOR_QUESTION" type="QUESTION"/>
+<token style="PUNCTUATOR_EXCLAMATION_EQUAL_EQUAL" type="EXCLAMATION_EQUAL_EQUAL"/>
+<token style="PUNCTUATOR_LESS_LESS" type="LESS_LESS"/>
+<token style="PUNCTUATOR_EXCLAMATION_EQUAL" type="EXCLAMATION_EQUAL"/>
+</category>
+<style font-weight="bold" foreground="rgb(128,128,128)" id="PUNCTUATOR"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LESS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LESS_LESS_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LESS_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER_GREATER"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER_GREATER_GREATER"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_PLUS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER_GREATER_GREATER_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_EQUAL_EQUAL_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_EXCLAMATION"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_EQUAL_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER_GREATER_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_PLUS_PLUS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_MINUS_MINUS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_PLUS_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_GREATER_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_QUESTION"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_EXCLAMATION_EQUAL_EQUAL"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LESS_LESS"/>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR_EXCLAMATION_EQUAL"/>
+<category name="IDENTIFIER" style="IDENTIFIER"/>
+<style foreground="rgb(240,225,160)" id="IDENTIFIER"/>
+</colorizer>
