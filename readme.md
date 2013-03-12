@@ -14,4 +14,4 @@ Each editor has its own palette:
 
 This facilitates the task when you're working on a multi-language code, but also can be helpful if you're constantly switching between editors, at least for avoiding visual boredom :D
 
-[1]https://bitbucket.org/druellan/multichromatic-theme-for-aptana-studio/downloads/multichromatic.png
+[1]: https://bitbucket.org/druellan/multichromatic-theme-for-aptana-studio/downloads/multichromatic.png
